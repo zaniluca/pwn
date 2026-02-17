@@ -12,8 +12,6 @@ disk: "50GiB"
 mounts:
   - location: "~"
     writable: true
-  - location: "/tmp/lima"
-    writable: true
 
 provision:
   - mode: system
